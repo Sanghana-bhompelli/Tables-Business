@@ -8,7 +8,7 @@ namespace TablesBusiness.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        [HttpGet("GetAllCustomers")]
+        [HttpGet("GetAllCustomer")]
         public List<CustomersModel> GetAllCustomer()
         {
             CustomerModelClass objCustomerModelClass = new CustomerModelClass();
